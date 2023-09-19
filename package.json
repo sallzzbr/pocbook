@@ -1,5 +1,8 @@
 {
-  "homepage": "http://sallzzbr.github.io/pocbook",
+  "homepage": "https://sallzzbr.github.io/pocbook",
+  "name": "pocbook",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,9 +18,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "predeploy": "npm run build-storybook",
-    "deploy-storybook": "gh-pages -d .storybook",
-    "build-storybook": "build-storybook"
+    "build-storybook": "storybook build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "chromatic": "npx chromatic --project-token=chpt_81f23f68567df32"
   },
   "eslintConfig": {
     "extends": [
@@ -49,10 +53,13 @@
     "@storybook/react-webpack5": "^7.4.2",
     "@storybook/testing-library": "^0.2.1",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^7.2.0",
     "eslint-plugin-storybook": "^0.6.13",
     "gh-pages": "^6.0.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.4.2",
     "webpack": "^5.88.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "pocbook@0.1.0"
 }
