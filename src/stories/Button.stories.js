@@ -9,7 +9,7 @@ export default {
     layout: 'centered',
     design: {
       type: "figma",
-      url: "https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File",
+      url: "https://www.figma.com/file/sTE6zriHcMwzf3sQEAwhB9/Ant-Design-Open-Source-(Community)-(Copy)?type=design&node-id=34701-197&mode=dev",
     },
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
